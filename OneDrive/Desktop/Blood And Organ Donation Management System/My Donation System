@@ -1,0 +1,14 @@
+# Create a new folder for YOUR project
+mkdir my-donation-system
+cd my-donation-system
+
+# Initialize Git
+git init
+
+# Create a basic README
+echo "# Blood and Organ Donation Management System" >> README.md
+echo "Team Members: [Your Names and SRNs]" >> README.md
+
+# Initial commit
+git add README.md
+git commit -m "Initial commit"
