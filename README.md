@@ -2,11 +2,11 @@
 
 | Branches |
 |-------|
-| **823/Creator + requests(Shrath)** |
-| **Sharath/823** |
+| **276/Creator + requests(Harsha)** |
+| **Harsha/276** |
 | **Feature/Controller** |
-| **nandini-donor-patient** |
-| **379/Inventory(Neha)** |
+| **Kiran-donor-patient** |
+| **296/Inventory(Kushal)** |
 
 
 ---
@@ -32,10 +32,10 @@ A Spring Boot MVC web application for managing blood and organ donations, built 
 
 | Member | SRN | Module | Design Pattern | GRASP |
 |--------|-----|--------|----------------|-------|
-| **Nandan** | 363 | Admin, Donation | Singleton (EventManager) | Controller |
-| **Nandani** | 364 | Donor, Patient | Observer (DonationEvent) | Information Expert |
-| **Sharath** | 823 | User, Request | Factory (RequestFactory) | Creator |
-| **Neha** | 379 | Inventory | Strategy (Matching) | Low Coupling |
+| **Harsha** | 294 | Admin, Donation | Singleton (EventManager) | Controller |
+| **Kiran** | 276 | Donor, Patient | Observer (DonationEvent) | Information Expert |
+| **Nikhil** | 279 | User, Request | Factory (RequestFactory) | Creator |
+| **Kushal** | 296 | Inventory | Strategy (Matching) | Low Coupling |
 
 ---
 
@@ -135,10 +135,10 @@ src/main/java/com/donation/system/
 | Branch | Purpose |
 |--------|---------|
 | `main` | Stable, production-ready code |
-| `feature/singleton` | Nandan — Admin, Donation, EventManager |
-| `feature/observer` | Nandani — Donor, Patient, Observer |
-| `feature/factory` | Sharath — User, Request, Factory |
-| `feature/strategy` | Neha — Inventory, Strategy |
+| `feature/singleton` | Harsha — Admin, Donation, EventManager |
+| `feature/observer` | Kiran — Donor, Patient, Observer |
+| `feature/factory` | Nikhil — User, Request, Factory |
+| `feature/strategy` | Kushal — Inventory, Strategy |
 
 ### Creating a feature branch
 ```bash
